@@ -16,7 +16,7 @@ export default function Details() {
          <div><a rel="nofollow" class="soc-links" target="_blank" href="https://twitter.com/redBus_sg"><img class="social-logo" src="https://st.redbus.in/Images/rdc/Group%2078.svg"/></a></div>
           
       </div>
-      <div id="footer-text">2021 ibibogroup All rights reserved</div>
+      <div id="footer-text">2023 ibibogroup &copy;  <br></br>All rights reserved</div>
       <div id="png">
        {/* <a href="https://www.redbus.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Redbus_logo.jpg/1200px-Redbus_logo.jpg" alt="" /></a> */}
       </div>

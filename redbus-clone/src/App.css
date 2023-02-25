@@ -5,15 +5,16 @@
 }
 
 #main-duplicate {
-  background-color: rgb(217, 217, 217);
+  background-color: rgb(241, 179, 179);
   width: 70%;
   margin: 100px auto;
-  /* margin-top: 100px; */
+  margin-top: 100px;
   margin-bottom: 0;
   padding: 20px;
   display: flex;
   justify-content: space-around;
   margin-bottom: 2rem;
+  border-radius: 40px;
 }
 
 
@@ -190,6 +191,7 @@
 /* bus card */
 
 #bus-details {
+  margin-left: auto;
   margin-top: 10px;
   padding-top: 30px;
   background-color: #d54f5f;
@@ -198,6 +200,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 40px;
+  border-left: 40px;
 }
 
 #sortby {
@@ -304,12 +308,12 @@
 }
 
 #top {
-  width: 100%;
+  width: 700px;
   height: 60%;
   margin: 2px;
   display: flex;
   justify-content: space-evenly;
-  padding-right: 100px;
+  padding-right: revert;
   /* background-color: aquamarine; */
 }
 
@@ -419,43 +423,44 @@
 /* Booked.js */
 
 .booking {
-  margin-top: 40px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  height: auto;
-  background-color: #d54f5f;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100;
+  background-color: #a40518;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: cursive;
 }
 
 .seatNo {
-  font-size: 30px;
+  font-size: 20px;
   color: antiquewhite;
-  padding-bottom: 20px;
+  padding-bottom: 2px;
 }
 
 .total {
-  font-size: 30px;
+  font-size: 20px;
   color: antiquewhite;
   padding-bottom: 20px;
 }
 
 .fromto {
-  font-size: 30px;
+  font-size: 20px;
   color: antiquewhite;
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
 }
 
 .thanksgiving {
-  font-size: 30px;
+  font-size: 10px;
   color: antiquewhite;
   padding-bottom: 20px;
 }
@@ -466,12 +471,13 @@
   padding-bottom: 20px;
 }
 
-.backbtn {
+.backbtn:hover {
   background-color: rgb(76, 255, 76);
   margin-left: auto;
   margin-right: 50px;
   /* margin-top: 30px; */
   cursor: pointer;
+  background-color: aqua;
 }
 
 .backbtn button {
@@ -527,11 +533,15 @@
 }
 #details {
   /* display: flex; */
-  /* justify-content: space-evenly; */
+  justify-content: center;
   background-color: #d54f5f;
-  width: 70%;
+  width: 100%;
   margin: 100px auto;
-  padding: 20px;
+  padding: 50px;
+  font-family: cursive;
+  margin-bottom: 0%;
+  
+
 
   /* height: 500px; */
 }
